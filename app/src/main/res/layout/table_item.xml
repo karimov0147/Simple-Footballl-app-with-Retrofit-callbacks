@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="5dp">
+
+    <TextView
+        android:textAlignment="center"
+        android:id="@+id/rank"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        />
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:gravity="center">
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/name"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/wins"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/losses"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/draws"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/gamesPlayed"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/goalsFor"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/goalsAginst"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/points"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/rankChange"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/GoalDiffernce"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/pointsPG"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/overall"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            />
+
+
+    </TableRow>
